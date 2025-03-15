@@ -8,20 +8,20 @@ Saya Rasendriya Andhika dengan NIM 2305309 mengerjakan Tugas Praktikum 3 dalam m
 
 
 <h3 align="left">Desain Program</h3>
-Program terdiri dari 4 class yaitu Kasir, Customer, Items, dan Makanan/Minuman (yang terdiri dari Pasta, Nasi Goreng, dan Jus). Class Pasta, Nasi Goreng, dan Jus adalah child dari class Items. Class Items dapat diakses oleh class Customer.<br>
+Program terdiri dari 4 class yaitu Kasir, Customer, Items, dan Makanan/Minuman (yang terdiri dari Pasta, Nasi Goreng, dan Jus). Class Pasta, Nasi Goreng, dan Jus adalah child dari class Items. Class Items dapat diakses oleh class Customer.<br> <br>
 Didalam class Kasir memiliki 2 Atribut, yaitu :
 <ul>
    <li>Id (ID dari kasir)</li>
    <li>Nama (Nama dari kasir)</li>
 </ul>
-Class ini dapat mengelola beberapa Customer menggunakan array of object <br>
+Class ini dapat mengelola beberapa Customer menggunakan array of object <br> <br>
 
 Didalam class Customer memiliki 2 Atribut, yaitu :
 <ul>
    <li>Nama (Nama dari customer)</li>
    <li>Tanggal (Tanggal pemesanan)</li>
 </ul>
-Class ini dapat mengelola beberapa Items yang dipesan oleh customer menggunakan array of object.<br>
+Class ini dapat mengelola beberapa Items yang dipesan oleh customer menggunakan array of object.<br><br>
 
 Didalam class Items memiliki 4 Atribut, yaitu :
 <ul>
@@ -30,7 +30,7 @@ Didalam class Items memiliki 4 Atribut, yaitu :
    <li>Kategori (Kategori item, seperti Makanan atau Minuman)</li>
    <li>HargaProduk (Harga dari item)</li>
 </ul>
-Class ini menjadi parent untuk Pasta, Nasi Goreng, dan Jus.<br>
+Class ini menjadi parent untuk Pasta, Nasi Goreng, dan Jus.<br><br>
 
 Didalam class Pasta (Child dari Items) memiliki 2 Atribut, yaitu :
 <ul>
@@ -51,7 +51,7 @@ Didalam class Jus (Child dari Items) memiliki 1 Atribut, yaitu :
 
 <h3 align="left">Alur Program</h3>
 <strong> 1. Mengisi Data Kasir</strong> <br> 
-Program dimulai dengan meminta input dari pengguna untuk memasukkan Id dan Nama kasir. Data ini kemudian disimpan ke dalam objek Kasir.<br>
+Program dimulai dengan meminta input dari pengguna untuk memasukkan Id dan Nama kasir. Data ini kemudian disimpan ke dalam objek Kasir.<br><br>
 
 <strong> 2. Mengisi Data Customer</strong> <br> 
 Pengguna diberikan kesempatan untuk memasukkan jumlah Customer yang akan dilayani. Selanjutnya, program meminta input Nama dan Tanggal Pemesanan dari setiap customer. Data ini disimpan ke dalam objek Customer.<br>
@@ -64,7 +64,7 @@ Setiap Item dapat berupa:
    <li> Nasi Goreng (Memiliki atribut tambahan: Jenis dan Level Kepedasan)</li>
   <li> Jus (Memiliki atribut tambahan: Jenis Buah)</li>
 </ul>
-Pengguna diminta memasukkan data sesuai dengan jenis Item yang dipilih. <br>
+Pengguna diminta memasukkan data sesuai dengan jenis Item yang dipilih. <br><br>
 
 <strong> 4. Menyimpan Pesanan ke Dalam Objek Customer</strong> <br> 
 Setiap Item yang telah dibuat akan disimpan ke dalam objek Customer yang bersangkutan. Program melakukan proses ini berulang kali hingga seluruh Items yang dipesan oleh customer tersebut telah disimpan. <br>
@@ -77,7 +77,6 @@ Setelah semua pesanan dari seorang Customer selesai dibuat, program akan menyimp
   <li>Program mencetak semua data customer yang telah disimpan di dalam objek Kasir dalam bentuk tabel yang rapi.</li> 
   <li>Setiap customer dicetak beserta daftar **Items** yang dipesan (Nama, Kategori, Harga, serta atribut tambahan sesuai jenis item).</li>
 </ul> 
-<br>
 
 <strong> 7. Mengakhiri Program</strong> <br> 
 Setelah seluruh data berhasil dicetak, program mengakhiri prosesnya.
